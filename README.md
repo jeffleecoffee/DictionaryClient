@@ -13,10 +13,10 @@ set DICTIONARY -
     the dictionary name can be anything. However for subsequent define and match commands to work the string will have to be eiher the first word on one of the lines
     returned by the dict command or one of the required virtual databases defined in
     section 3.4 of the RFC. The default dictionary to use if the set command has not
-    been given is "*". When a connection is established to a dictionary server, the dictionary to use is initially set to "*". Multiple set commands simply result in a new dictionary to search being set. Multiple set commands do not result in the building of a collection of dictionaries to search.
+    been given is *. When a connection is established to a dictionary server, the dictionary to use is initially set to *. Multiple set commands simply result in a new dictionary to search being set. Multiple set commands do not result in the building of a collection of dictionaries to search.
 
 currdict - 
-    Prints the name of the current dictionary being used. Initially this value is "*".
+    Prints the name of the current dictionary being used. Initially this value is *.
 
 define WORD - 
     Retrieve and print all the definitions for WORD. WORD is looked up in the
